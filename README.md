@@ -1,8 +1,8 @@
-# Incident Management System - Week 5
+# Incident Management System 
 
 A full-stack incident tracking and management system with file-based persistence, status workflow, and archiving capabilities.
 
-## 📋 Project Overview
+##  Project Overview
 
 This system manages incidents across different categories (IT, Safety, Facilities, Other) with a complete workflow from creation through investigation to resolution and archival.
 
@@ -75,7 +75,7 @@ This system manages incidents across different categories (IT, Safety, Facilitie
 
    Open browser to: `http://localhost:3000`
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 Week_5/
@@ -118,7 +118,7 @@ Week_5/
 └── README.md                     # This file
 ```
 
-## 🔧 Configuration
+##  Configuration
 
 Edit `backend/config.js` to customize:
 
@@ -138,7 +138,7 @@ server: {
 }
 ```
 
-## 📖 Usage Guide
+## Usage Guide
 
 ### Creating Incidents
 
@@ -199,7 +199,7 @@ title,description,category,severity
 "Broken door","Office door broken","FACILITIES","MEDIUM"
 ```
 
-## 🔄 Status Workflow
+##  Status Workflow
 
 ```
 OPEN
@@ -217,7 +217,7 @@ OPEN
 - RESOLVED can go to: ARCHIVED
 - ARCHIVED can go to: OPEN (reset only)
 
-## 🎯 API Endpoints
+##  API Endpoints
 
 ### Health Check
 
@@ -281,7 +281,7 @@ Response: { totalRows, created, skipped }
 
 **Auto-save:** Enabled by default (configurable in config.js)
 
-## 🐛 Troubleshooting
+##  Troubleshooting
 
 ### Backend won't start
 
@@ -310,3 +310,4 @@ Response: { totalRows, created, skipped }
 
 **Backend Port:** 3001  
 **Frontend Port:** 3000
+
